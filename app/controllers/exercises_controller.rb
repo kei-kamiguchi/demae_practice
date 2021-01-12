@@ -67,7 +67,6 @@ class ExercisesController < ApplicationController
     #  - ActiveRecord::Base#selectを使用すること
     #  - ActiveRecord::Base#groupを使用すること
     #  - ActiveRecord::Base#orderを使用すること
-    #  - ヒント: https://railsguides.jp/active_record_querying.html#left-outer-joins
     @query = <<~EOS
       # ここに記述
     EOS
